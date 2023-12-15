@@ -1,0 +1,32 @@
+{
+	"development": {
+		"ID": "development",
+		"BASE_URL": "http://18.142.249.36:3006/",
+		"MAILER_IMAGE_PATH": "https://collegey.com/assets/images/logo_image",
+		"MAILER_TMS_LOGO": "https://i.imgur.com/RM0bopp.jpg",
+		"MAILER_IMAGE_PATH1": "https://collegey.s3-ap-southeast-1.amazonaws.com/mailers",
+		"DASHBOARD_URL": "https://collegey.com/",
+		"RESET_PASSWORD_URL": "/reset-password",
+		"FB_LINK": "https://www.facebook.com/",
+		"INSTA_LINK": "https://www.instagram.com/",
+		"TWITTER_LINK": "https://twitter.com/",
+		"LINKEDIN_LINK": "https://www.linkedin.com/",
+		"ADMIN_EMAIL": "syed@collegey.com",
+		"CC_INVITE_EMAIL": [
+			"ganesh.vab@gmail.com",
+			"vaghasiyaketanj@gmail.com"
+		]
+	},
+	"production": {
+		"ID": "production",
+		"BASE_URL": "https://collegey.com/",
+		"MAILER_IMAGE_PATH": "https://collegey.com/assets/images/logo_image",
+		"DASHBOARD_URL": "https://collegey.com/",
+		"RESET_PASSWORD_URL": "/reset-password",
+		"FB_LINK": "https://www.facebook.com/",
+		"INSTA_LINK": "https://www.instagram.com/",
+		"TWITTER_LINK": "https://twitter.com/",
+		"LINKEDIN_LINK": "https://www.linkedin.com/",
+		"ADMIN_EMAIL": "syed@collegey.com"
+	}
+}
