@@ -67,7 +67,7 @@ const emailConfigurationRoute = require('./emailConfigurationRoute');
 const coursesRoute = require('./courses/index');
 const departmentsRoute = require('./department');
 const staffRoute = require('./staff');
-const leavesRoute = require('./leave-req');
+const budgetsRoute = require('./budget');
 const chatbotRoute = require('./chatbot');
 const videoPlayedRoute = require('./video-played');
 const internalEmailRoute = require('./internal-email');
@@ -123,7 +123,7 @@ router.use('/courses', courses);
 router.use('/courses-new', coursesRoute);
 router.use('/department', departmentsRoute);
 router.use('/staff', staffRoute);
-router.use('/leave', leavesRoute);
+router.use('/budget', budgetsRoute);
 router.use('/chatbot', chatbotRoute);
 router.use('/video-played', videoPlayedRoute);
 
